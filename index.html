@@ -1,0 +1,97 @@
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./dist/output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      </style>
+    } -->
+  </head>
+  <body class="bg-cream font-mont icon">
+    <!-- <article class="block w-full container h-[667px] bg-white">asd</article> -->
+    <!-- <div class="bg-DeepAquamarine mx-4 sm:mx-auto sm:w-[375px] md:w-[600px]" >
+      HELLO
+    </div> -->
+    <div class="max-w-[600px] mx-4 md:mx-auto place-content-center h-screen">
+      <article
+        class="md:max-w-[600px] bg-white pb-[30px] grid md:grid-cols-2 md:rounded-xl md:overflow-hidden md:pb-0"
+      >
+        <picture class="">
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width: 600px)"
+          />
+          <img src="./images/image-product-mobile.jpg" alt="PERFUME" />
+        </picture>
+        <div class="px-6 md:px-8">
+          <p
+            class="bg-white inline-block text-sm font-medium text-AurometalSaurus mt-6 md:mt-8"
+          >
+            PERFUME
+          </p>
+
+          <h1
+            class="mt-3 md:mt-5 text-xl font-bold font-fraunces text-Gunmetal"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h1>
+
+          <p
+            class="mt-5 md:mt-6 bg-white text-md text-AurometalSaurus font-medium"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="mt-6 md:mt-7 flex items-center space-x-[19px]">
+            <p class="text-xl font-bold font-fraunces text-DeepAquamarine">
+              $149.99
+            </p>
+            <p class="line-through text-[.8125rem] text-AurometalSaurus">
+              $169.99
+            </p>
+          </div>
+          <a
+            class="flex items-center justify-center text-[0.875rem] text-white bg-DeepAquamarine text-center py-[15px] mx-6 rounded-lg font-bold  mt-5 md:mt-[30px] hover:bg-DeepAquamarineDark transition ease-in-out duration-500"
+            href="#"
+          >
+            <svg
+              width="15"
+              height="16"
+              xmlns="http://www.w3.org/2000/svg"
+              class="mr-2"
+            >
+              <path
+                d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                fill="#FFF"
+              />
+            </svg>
+            Add to Cart
+          </a>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
