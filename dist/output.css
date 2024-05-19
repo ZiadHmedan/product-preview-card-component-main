@@ -707,9 +707,8 @@ video {
   margin-right: 1.5rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mt-2 {
@@ -726,10 +725,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .box-border {
@@ -839,10 +834,6 @@ video {
   height: 100vh;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -859,16 +850,8 @@ video {
   width: 100%;
 }
 
-.w-\[375px\] {
-  width: 375px;
-}
-
 .max-w-\[600px\] {
   max-width: 600px;
-}
-
-.max-w-lg {
-  max-width: 32rem;
 }
 
 .flex-shrink {
@@ -1205,10 +1188,6 @@ video {
   grid-auto-flow: column dense;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1403,12 +1382,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(19px * var(--tw-space-x-reverse));
   margin-left: calc(19px * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -1725,10 +1698,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1983,10 +1952,6 @@ video {
      object-fit: scale-down;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1995,11 +1960,6 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .pb-\[30px\] {
@@ -2660,10 +2620,6 @@ video {
     max-width: 600px;
   }
 
-  .md\:max-w-2xl {
-    max-width: 42rem;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2674,10 +2630,6 @@ video {
 
   .md\:rounded-xl {
     border-radius: 0.75rem;
-  }
-
-  .md\:p-8 {
-    padding: 2rem;
   }
 
   .md\:px-8 {
